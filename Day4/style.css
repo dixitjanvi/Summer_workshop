@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    background-color: darkgreen;
+    height: 400px;
+    width: 400px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 4fr 4fr;
+    grid-template-rows: 4fr 4fr;
+    padding: 5px;
+}
+
+.first{
+    background-color: blueviolet;
+}
+
+.second{
+    background-color: cadetblue;
+}
+
+.third{
+    background-color: darkgoldenrod;
+}
+
+.fourth{
+    background-color: darkred;
+}

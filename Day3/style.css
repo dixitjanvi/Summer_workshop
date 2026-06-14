@@ -1,0 +1,129 @@
+/* h1{
+    background-color: brown;
+    color: blue;
+}
+h1{
+    background-color: green !important;
+    color: black;
+} */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #494EDD;
+    width: 100%;
+    color: white;
+    font-size: 10px;
+    /* padding: 10px 0px; */
+    font-family: Arial, Helvetica, sans-serif;
+     position: fixed; 
+}
+
+h1{
+    padding: 10px 0px;
+    text-align: center;
+}
+
+nav .navbar{
+    background-color: white;
+    display: flex;
+    height: 60px;
+    width: auto;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.tools{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.tools a{
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    color: black;
+}
+
+section{
+    height: 100px;
+    background-color: #F6F1F7;
+    display: flex;
+}
+
+section h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    display: flex;
+    padding-top: 50%;
+    padding-left: 30%;
+}
+
+section img{
+    height: 900px;
+    padding-left: 20%;
+    padding-top: 10%;
+}
+
+.cards{
+    padding-top: 3%;
+    height: 900px;
+    background-color: #ffffff;
+    padding-left: 10%;
+    display: flex;
+}
+
+.card1 h1{
+    font-size: 50px;
+    display: flex;
+}
+
+.card1 p{
+    font-size: 25px;
+}
+
+.card1 img{
+    padding-top: 10%;
+    height: 500px;
+}
+
+.card2 h1{
+    font-size: 50px;
+    display: flex;
+}
+
+.card2 p{
+    font-size: 25px;
+}
+
+.card2 img{
+    padding-top: 10%;
+    height: 500px;
+}
+
+.card3 h1{
+    font-size: 50px;
+    display: flex;
+}
+
+.card3 p{
+    font-size: 25px;
+}
+
+.card3 img{
+    padding-top: 10%;
+    height: 500px;
+}
+
+.community section{
+    height: 100px;
+    background-color: #F6F1F7;
+    display: flex;
+}

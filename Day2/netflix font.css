@@ -1,0 +1,110 @@
+/* Boiler plate */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: brown;
+}
+
+/* Heading */
+h1{
+    text-align: center;
+    color: white;
+    margin: 20px 0;
+}
+
+/* First Box */
+.first{
+    height: 250px;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+
+    border: 4px dotted black;
+
+    background-image: url("https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg");
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Netflix Box */
+.netflix{
+    height: 200px;
+    width: 400px;
+    margin: 20px auto;
+
+    background-color: black;
+    color: red;
+
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 3px solid red;
+    box-shadow: 0 0 15px red;
+}
+
+.card{
+    height: 350px;
+    width: 250px;
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+
+.top{
+    height: 60%;
+    width: 100%;
+}
+
+.top img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bottom{
+    height: 40%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.bottom h1{
+    font-size: 18px;
+    margin: 0;
+}
+
+.bottom p{
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: chocolate;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
